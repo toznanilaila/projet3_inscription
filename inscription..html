@@ -4,17 +4,32 @@
     <meta charset='utf-8'>
     <title>Inscription</title>
    
-    <link rel='stylesheet' type='text/css' media='screen' href='cssvend.css'>
+    <link rel='stylesheet' type='text/css'  href='cssvend.css'>
 
     <script src='main.js'></script>
-   
-        
+   <script>
+    function om() {
+        var text1=document.getElementById("input1").value;
+        var text2=document.getElementById("input2").value;
+        var text3=document.getElementById("input3").value;
+        var text4=document.getElementById("input4").value;
+        var text5=document.getElementById("input5").value;
     
+        document.getElementById("result").innerHTML+="user_name "+text1+"<br>";
+    
+        document.getElementById("result").innerHTML+="user_name "+text2+"<br>";
+        document.getElementById("result").innerHTML+="user_télé: "+text3+"<br>";
+        document.getElementById("result").innerHTML+="user_adresse: "+text4+"<br>";
+        document.getElementById("result").innerHTML+="user_mail: "+text5+"<br>";
+    
+    }
+</script>
+
 </head>
 <body>
 
           </script>
- <div class="formulaire">
+ <div class="formulaire" id="form">
 
 <h1> Inscription</h1>
         <div  >
@@ -39,7 +54,7 @@
         </div><br>
        
 
-<button onclick= "myfunction ()">Ajouter</button>
+<button onclick= "myfunction ()" style="outline: none;" id="botton">Ajouter  </button>
 
 <input  type="button" value="Imprimer" onclick="window.print()"/>
 </div>
