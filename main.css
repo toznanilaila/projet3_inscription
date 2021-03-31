@@ -1,0 +1,40 @@
+body{
+    
+    background-color: #8a8299;
+}
+input {
+    border: 1px solid black;
+}
+
+.input-group-text{
+    width: 100px;
+    
+}
+.color{
+    background-color: #f8f9fad2!important;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  table, td, th {
+    border: 1.5px solid rgb(122, 117, 117);
+    background-color: #f2f2f2b0;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {background-color: #817e7e;}
+  th{
+    background-color: #565856;
+    color: white;
+  }
+  td{
+      width: 30%;
+  }
+  input[type="text" i] {
+    padding: 8px;
+    width: 80%;
+}
