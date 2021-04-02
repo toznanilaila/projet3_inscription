@@ -78,7 +78,7 @@ $_SESSION['nom'] =  $numero;
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='main.css'>
-    <link rel='stylesheet' href='media.css' media="print">
+    <link rel='stylesheet' href='.css' media="print">
 </head>
 <body>
 <h1 class="mx-auto">Liste des participants</h1>
@@ -111,7 +111,7 @@ foreach ($_SESSION["nom"] as $value) {
 </table>
 </div>
 
-<button onclick="window.print()">Print</button>
+<button class="btn btn-primary" onclick="window.print()">Print</button>
 </body>
 
 </html>
