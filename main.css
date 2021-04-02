@@ -6,7 +6,7 @@
 .d-flex .pb-3 {
   background-color:rgb(219, 186, 219) ;
   border-radius : 5px;
-  margin-top:-40px ;
+  margin-top:-12px ;
   font-size: 3.2em;
   line-height: 48px;
   padding-bottom:30px;
@@ -16,6 +16,8 @@
       background: linear-gradient(to right,#615c5c  0%,#5543ca  100%) !important;
       -webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
+
+
   }
  
 body{
@@ -31,6 +33,7 @@ input {
 }
 .color{
     background-color: #c77dff!important;
+    width: 500px;
 }
 table {
     border-collapse: collapse;
@@ -65,4 +68,7 @@ table {
 
 .container{
 height: 600px;
+}
+.mx-auto{
+  color: white ;
 }
