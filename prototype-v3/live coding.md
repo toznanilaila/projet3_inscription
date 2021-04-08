@@ -1,0 +1,6 @@
+   - php syntax ..
+   - uncaught syntaxError : unexpected token in json at position 
+   - syntax error ///// fatal error en codage
+   - 
+   -
+   -
